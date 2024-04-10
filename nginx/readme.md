@@ -7,13 +7,13 @@ Nginx acts as our reverse proxy server.
 
 login to our AWS server (you will need the ssh cert):
 
-`ssh -i "justmeet_keypair.pem" ubuntu@ec2-18-130-49-105.eu-west-2.compute.amazonaws.com`
+`ssh -i "chat-dungeon.pem" ubuntu@ec2-18-130-49-105.eu-west-2.compute.amazonaws.com`
 
-Then there is `justMeet-Ideaapp2020` directory which holds this repo.
+Then there is `chat-dungeon` directory which holds this repo.
 
 If you want to update Nginx:
 
-`cd ~/justMeet-Ideaapp2020/nginx`
+`cd ~/chat-dungeon/nginx`
 
 `git pull`
 
