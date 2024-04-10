@@ -1,0 +1,14 @@
+[Unit]
+Description=Chat dungeon
+After=network.target
+
+[Service]
+ExecStart=npm start
+WorkingDirectory=/home/ubuntu/chat-dungeon/server
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target
