@@ -1,5 +1,15 @@
-# Default ignored files
-/shelf/
-/.idea/workspace.xml
+# System and IDE files
+Thumbs.db
+.DS_Store
 .idea
-*.iml
+*.suo
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# Vendors
+node_modules/
+
+# Build
+dist/
+/npm-debug.log
